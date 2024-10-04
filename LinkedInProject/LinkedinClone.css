@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerdiv{
+    background-color: rgb(0, 238, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+  background-color: chocolate;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left{
+    flex: 1.8;
+    background-color:white;
+}
+
+.linkedinLogo{
+    width: 100px;
+    height: 25px;
+    position:absolute;
+    top:25px;
+    left:200px;
+    cursor: pointer;
+}
+
+.header-center{
+    flex:1.9;
+    height: 100%;
+    background-color:white;
+    color: rgb(0 0 0 / 60%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list{
+    color: #526a6e; 
+
+}
+.list:hover{
+    color:black;
+}
+
+
+.icon{
+   fill: #526a6e; 
+}
+.icon:hover{
+ fill:black;
+}
+
+.header-center span{
+    display: block;
+}
+.get-app-border{
+    flex:.3;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+i{
+color: #464747ca;
+position: relative;
+left: 25px;
+
+}
+
+i:hover{
+color: rgb(0, 0, 0);
+}
+.get-app-icon{
+    position: relative;
+    left: 35px;
+}
+
+
+.get-app-title{
+
+    color: #526a6e
+}
+
+.get-app-title:hover{
+    color: black
+}
+
+
+.header-right{
+    flex: 1.4;
+    background-color:white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+.Join-now-button{
+    width: 30%;
+    height: 50px;
+    border-radius: 64px;
+    border: none; 
+    color: rgb(0 0 0 / 60%);
+     background-color:rgb(0 0 0 / 0%);
+     font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+     cursor: pointer;
+    text-decoration-line: none;
+ 
+}
+.Join-now-button:hover{
+    background-color:rgb(249, 246, 246);
+}
+
+.Submit-button{
+    width: 25%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:  sans-serif;
+    color:  #0a66c2;
+    background-color:rgb(0 0 0 / 0%);
+    border: 1px solid  #0a66c2; 
+    border-radius: 24px;
+    cursor: pointer;    
+}
+.Submit-button:hover{
+    background-color: rgb(234, 246, 250);
+}
+
+.contentbody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    }
+
+.body-left{
+    width:100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.body-left-title1{
+    font-size: 48px; 
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: #526a6e;
+    position: relative;
+    top: 20px;
+    cursor: text;
+} 
+.body-left-title2{
+    font-size: 48px; 
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: #526a6e;
+    position: relative;
+    left: 75px;
+    cursor: text;
+} 
+
+.body-left-button1{
+    width: 400px;
+    height: 45px;
+    color: rgb(0 0 0 / 75%);
+    background-color: rgb(0 0 0 / 0%);
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+
+}
+.body-left-button1:hover{
+  cursor: pointer;
+}
+.googlelogo{
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.body-left-button2{
+    width: 400px;
+    height: 45px;
+    color: rgb(0 0 0 / 75%);
+    background-color: rgb(0 0 0 / 0%);
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.body-left-button2:hover{
+    cursor: pointer;
+}
+
+.body-left-para1{
+  color: rgb(0 0 0 / 60%);
+  font-size:small;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.body-left-para1 span{
+color: #0a66c2;
+font-size: smaller;
+}
+.body-left-para1 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.body-left-lastpara{
+ color: rgb(0 0 0 / 60%);
+ font-size: medium;
+ font-weight: bold;
+ position: relative;
+ right: 5px;
+}
+
+.body-left-lastpara span{
+    color: #0a66c2;
+    font-size: medium;
+    font-weight: bold;
+
+}
+.body-left-lastpara{
+    cursor: pointer;
+   
+}
+.body-left-lastpara span:hover{
+    text-decoration: underline;
+}
+
+.body-right{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.img{
+width: 800px;
+height: 544px;
+}
+   
